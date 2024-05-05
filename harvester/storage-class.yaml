@@ -1,0 +1,14 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: harvester
+  annotations:
+    {}
+  labels:
+    {}
+allowVolumeExpansion: false
+parameters:
+  hostStorageClass: harvester-default
+provisioner: driver.harvesterhci.io
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
