@@ -1,7 +1,7 @@
-defaultNamespace: argo
-namespace: argo
-helm:
-  #releaseName: argo-cd
-  chart: argo/argo-cd
-  repo: https://argoproj.github.io/argo-helm
-  version: 6.7.18
+# defaultNamespace: argo
+# namespace: argo
+# helm:
+#   releaseName: argo-cd
+#   chart: argo/argo-cd
+#   repo: https://argoproj.github.io/argo-helm
+#   version: 6.7.18
