@@ -8,7 +8,7 @@ metadata:
     {}
 allowVolumeExpansion: false
 parameters:
-  hostStorageClass: harvester-default
+  hostStorageClass: harvester-longhorn
 provisioner: driver.harvesterhci.io
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
