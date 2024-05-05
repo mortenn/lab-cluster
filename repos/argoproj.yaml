@@ -1,7 +1,0 @@
-apiVersion: catalog.cattle.io/v1
-kind: ClusterRepo
-metadata:
-  name: argoproj
-spec:
-  gitBranch: main
-  gitRepo: https://argoproj.github.io/argo-helm
